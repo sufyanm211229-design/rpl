@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Kelas 10</title>
+</head>
+<body>
+   <input type="text" placeholder="Cari Murid X PPLG 1" id="cariInput">
+  <button id="cariBtn">Cari</button>
+
+  <h1>Kelas 10</h1>
+  <img src="WhatsApp Image 2025-08-17 at 11.28.46_ea5aeedc.jpg">
+  <br>
+  <img src="WhatsApp Image 2025-08-17 at 11.28.47_f2f656d5.jpg">
+  <br>
+  <img src="WhatsApp Image 2025-08-19 at 14.22.16_53016307.jpg">
+  <br>
+  <img src="rpl bersama.jpg">
+  <br>
+  <img src="rpl bersama 2.jpg">
+  <br>
+  <img src="rpl rame.jpg">
+  <br>
+  <img src="rpl rame2.jpg">
+  <br>
+  <img src="rpl cowok.jpg">
+  <br>
+  <img src="rpl cowok 2.jpg">
+  <br>
+  <img src="rpl cewekjpg.jpg">
+  <br>
+  <img src="rpl cewek 2.jpg">
+  <br>
+
+  <!-- Musik tanpa kontrol -->
+  <audio id="musik" loop>
+    <source src="WhatsApp .mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    // Ambil elemen audio
+    const musik = document.getElementById("musik");
+    const tombolCari = document.getElementById("cariBtn");
+
+    // Putar musik setelah tombol diklik
+    tombolCari.addEventListener("click", () => {
+      musik.play();
+      alert("Musik diputar!");
+    });
+  </script>
+</body>
+</html>
